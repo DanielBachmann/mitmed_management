@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>Einstellungen</title>
+</head>
+<body>
+<form style="width: 590px; height: 812px;" method="get"
+ action="settings2" name="settings"><span
+ style="font-family: Helvetica,Arial,sans-serif;">
+  <h2 style="width: 346px;">Allgemeine
+Einstellungen</h2>
+  </span><span style="font-family: Helvetica,Arial,sans-serif;"><big
+ style="font-weight: bold;">Netzwerk</big><br>
+  <table style="text-align: left; width: 572px; height: 191px;"
+ border="0" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="width: 221px; height: 25px;">Wlan SSID</td>
+        <td style="width: 331px; height: 25px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="SSID"
+ value="$1$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Wlan
+Password</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="WlanPWD"
+ value="$2$" type="password"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">UDP-IP</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="UDPIP"
+ value="$3$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">UDP-Debug<br>
+(0 ist aus, 1 Log, 2 Data)<br>
+        </td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="UDP-Debug"
+ value="$9$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">UDP-Lebenszeichen Intervall (min - 0
+ist aus)</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="LIVESIG"
+ value="$5$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"></span>Zeitstempel
+Intervall (min, 0 ist bei jedem Dateiwechsel)</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="TIMESTAMP"
+ value="$6$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"></span></td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="ftpPassword"
+ value="$7$" type="password"></big></big></td>
+      </tr>
+      <tr>
+        <td>Bin&auml;rdaten<br>
+(0 ist&nbsp;HEX)</td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="BINARY"
+ value="$14$"></big></big></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">WLAN
+Timeout<br>
+(in s -&nbsp;0 ist immer an)</span></td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="WLAN-OFF"
+ value="$8$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">Statische
+IP <br>
+(0=DHCP)</span></td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="IP"
+ value="$13$"></big></big></span></span></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">Hostname
+f&uuml;r DNS</span></td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="HOSTNAME"
+ value="$12$"></big></big></span></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <table style="text-align: left; width: 572px; height: 73px;"
+ border="0" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="width: 221px; height: 25px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;">Datei-Intervall
+(min)</span> </td>
+        <td style="width: 331px; height: 25px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="FileInterval"
+ value="$10$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td style="width: 221px; height: 26px;">Sample Rate&nbsp;
+Motion (Samples/s)<br>
+        </td>
+        <td style="width: 331px; height: 26px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="P20"
+ value="$20$"></big></big></span></span></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">Sample
+Rate&nbsp; HF<br>
+(Samples/s)</span> </td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="P21"
+ value="$21$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">Sample
+Rate&nbsp; EMG (Samples/s)</span><span
+ style="font-family: Helvetica,Arial,sans-serif;"></span></td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="P22"
+ value="$22$"></big></big></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  </span><input style="font-size: 20px; width: 30%; height: 35px;"
+ name="Done" value="Speichern" onclick="goHome()" type="submit">&nbsp;
+&nbsp;<span style="font-family: Helvetica,Arial,sans-serif;"><input
+ style="font-size: 20px; width: 100px; height: 35px;" name="OK"
+ onclick="location.href='index.htm';" value="Fertig" type="button"></span><br
+ systemwartung="">
+  <span style="font-family: Helvetica,Arial,sans-serif;"></span></form>
+<span style="font-family: Helvetica,Arial,sans-serif;">
+</span>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Sensor-Parameter</title>
+</head>
+<body>
+<form style="width: 590px; height: 638px;" method="get"
+ action="sensparam2" name="sensparam"><span
+ style="font-family: Helvetica,Arial,sans-serif;">
+  <h2 style="width: 578px;">Sensor-Paramter</h2>
+  </span><span style="font-family: Helvetica,Arial,sans-serif;"><big
+ style="font-weight: bold;">Netzwerk</big><br>
+  <table style="text-align: left; width: 572px; height: 191px;"
+ border="0" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="width: 221px; height: 25px;">Knotenadresse</td>
+        <td style="width: 331px; height: 25px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="OLDNODE"
+ value="$1$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Knotennummer
+(neu)</td>
+        <td style="width: 331px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="NEWNODE"
+ value="$2$"></big></big></span></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Netzwerk-Kennung</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="NETWORK"
+ value="$3$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Slotl&auml;nge pro&nbsp;Sensor (s)<br>
+        </td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="STIME"
+ value="$4$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Slot-Zeit gesamt alle Sensoren<br>
+in&nbsp;s, Teiler von 3600</td>
+        <td style="width: 331px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="SLOTTIME"
+ value="$5$"></big></big></span></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;">Messrate
+Teiler</td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="MDIVIDE"
+ value="$6$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;">Sendeversuche</span></td>
+        <td style="width: 331px;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="RETRIES"
+ value="$7$"></big></big></td>
+      </tr>
+      <tr>
+        <td style="width: 221px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;">Abstand
+Senden (ms)</span></td>
+        <td style="width: 331px;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="DELAY"
+ value="$8$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td>Anzahl Mittelungen</td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="AVERAGE"
+ value="$9$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;">Sendeleistung
+(1..31)</span></td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="POWER"
+ value="$10$"></big></big></span></span></td>
+      </tr>
+      <tr>
+        <td>SensorGain (10..100)</td>
+        <td><span style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><span
+ style="font-family: Helvetica,Arial,sans-serif;"><big><big><input
+ style="font-size: 25px; width: 100%; height: 35px;" name="GAIN"
+ value="$11$"></big></big></span></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+Maximale Anzahl der Sensoren ist SlotZeit / Slot-L&auml;nge,<br>
+&nbsp;Index beginnt bei 0 (default nach Programmieren) und geht bis
+Max-1<br>
+  <br>
+  <br>
+  </span><input style="font-size: 20px; width: 30%; height: 35px;"
+ name="SAVE" value="Speichern" onclick="goHome()" type="submit">&nbsp; <input
+ style="font-size: 20px; width: 30%; height: 35px;" name="SEND"
+ value="Senden" onclick="goHome()" type="submit">&nbsp;<span
+ style="font-family: Helvetica,Arial,sans-serif;"><input
+ style="font-size: 20px; width: 100px; height: 35px;" name="OK"
+ onclick="location.href='index.htm';" value="Fertig" type="button"></span><br
+ systemwartung="">
+  <span style="font-family: Helvetica,Arial,sans-serif;"></span></form>
+<span style="font-family: Helvetica,Arial,sans-serif;">
+</span>
+</body>
+</html>
