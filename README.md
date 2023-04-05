@@ -16,6 +16,7 @@ Bugs und Feature Requests können über die E-Mail Adresse des Supports gitlab+c
 Artefakt | Beschreibung | Ansprechpartner
 -------- | -------- | --------
 Demonstrator Wifi Manschette   | Desktop-Applikation zum Ansteuern der MitAssist Manschette zu Demo-Zwecken.   | Christoph Prinz
+Mustergenerator   | Tbd   | Megha Bhat
 ...   | ...   | ...
 
 
