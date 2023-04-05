@@ -1,0 +1,8 @@
+<macro name="Vib 8" icon="PLAY">
+   <assert-service description="Ensure 6bb985c6-de29-4df0-8615-a8ce87fcbd00 service" uuid="6bb985c6-de29-4df0-8615-a8ce87fcbd00">
+      <assert-characteristic description="Ensure 6bb985c6-de29-4df0-8615-a8ce87fcbd09 characteristic" uuid="6bb985c6-de29-4df0-8615-a8ce87fcbd09">
+         <property name="WRITE" requirement="MANDATORY"/>
+      </assert-characteristic>
+   </assert-service>
+   <write description="Write Vibrator Pattern" characteristic-uuid="6bb985c6-de29-4df0-8615-a8ce87fcbd09" service-uuid="6bb985c6-de29-4df0-8615-a8ce87fcbd00" value="$$Value$$" type="WRITE_REQUEST"/>
+</macro>
