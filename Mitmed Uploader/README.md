@@ -1,16 +1,16 @@
-# mitmed_uploader
+# MITMed Uploader
+Entwickelt um die mit dem [Vibgen2](../Mustergenerator/) erstellten Einzelmuster den 28 Emotionen zuzuordnen und die zusammengestellten Daten unter einem Bezeichner an den Server der Vorstudie zu übertragen (siehe [Repository "wp_plugin"](https://gitlab.gwdg.de/chair-of-information-management/mitmed-project/wp_plugin))
 
-A new Flutter project.
+Die vom [Vibgen2](../Mustergenerator/) erzeugten .txt Dateien enthalten jeweils ein Vibrationsmuster. Um dieses einer der 28 auswählbaren Emotionen zuzuordnen können die Dateien per Drag-and-Drop auf die Symbole / Stellen gezogen werden. 
 
-## Getting Started
+Beim Hochladen unter dem Bezeichner wird ein eventuell vorhandenes Gesamt-Muster des selben Namens überschrieben.
 
-This project is a starting point for a Flutter application.
+Die Gesamtmuster können später u. a. in der [BLE Beispiel App](https://gitlab.gwdg.de/chair-of-information-management/mitmed-project/app_ble_communication) ausgewählt und an die Manschette übertragen werden.
 
-A few resources to get you started if this is your first Flutter project:
+Bei der im Rahmen der [Vorstudie verwendeten App](https://gitlab.gwdg.de/chair-of-information-management/mitmed-project/study_app) kann ein Standard-Muster über die Wordpress-Seite festgelegt werden (siehe [Repository "wp_plugin"](https://gitlab.gwdg.de/chair-of-information-management/mitmed-project/wp_plugin))
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshot
+![Beispiel: Musterzuordnung](./documentation/images/uploader_screenshot.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Schema aktuelles Setup Vorstudie
+![Kontext in Setup Vorstudie](./documentation/images/mitmed_overview_backend_uploader.png)
