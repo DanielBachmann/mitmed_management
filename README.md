@@ -17,6 +17,7 @@ Artefakt | Beschreibung | Ansprechpartner
 -------- | -------- | --------
 Demonstrator Wifi Manschette   | Desktop-Applikation zum Ansteuern der MitAssist Manschette zu Demo-Zwecken.   | Christoph Prinz
 [Mustergenerator](./Mustergenerator)   | Tbd   | Megha Bhat
+[MITMed Uploader](./Mitmed%20Uploader/)| Desktop App zum Upload der Muster im Rahmen der Vorstudie | Daniel Bachmann
 ...   | ...   | ...
 
 
