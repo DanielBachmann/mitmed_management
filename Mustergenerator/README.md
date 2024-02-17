@@ -1,5 +1,8 @@
 # Mustergenerator (Vibgen2)
 
+## Schema aktuelles Setup Vorstudie
+![Kontext in Setup Vorstudie](./documentation/images/mitmed_overview_backend_vibgen.png)
+
 ## Steps to use the Pattern Generator
 (Information / Text from ./VibGen/How-To.docx)
 1. In the worksheet, VibPattern.xlsx 'Tabelle1' , enter the combination of vibrators, pulse length, pre pulse length, PWM strength and the overlap/pause. Detailed explanation of these terms is in the 'Hilfe' Tab.
